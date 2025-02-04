@@ -43,7 +43,11 @@ let dogsString = dogsArray.join("")
 console.log("opgave 5",dogsString);
 
 // opgave 7
+let mangoIndex = fruitsArray.indexOf("Mango")
+console.log("opgave 7",mangoIndex);
 
-
+// opgave 7b
+let blueIndex = fruitsArray.indexOf("Blåbær")
+console.log("opgave 7b",blueIndex);
 
 }) // ends DOMContentLoaded
