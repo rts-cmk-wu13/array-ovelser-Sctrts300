@@ -50,4 +50,16 @@ console.log("opgave 7",mangoIndex);
 let blueIndex = fruitsArray.indexOf("Blåbær")
 console.log("opgave 7b",blueIndex);
 
+// opgave 8
+let dogsModified = dogsArray.filter(dog => dog != "Polly")
+console.log(dogsModified);
+
+// ekstra
+let sum = numbersArray.reduce(function(result, number) {
+    return result + number
+    
+})
+console.log("ekstra",sum);
+
+
 }) // ends DOMContentLoaded
