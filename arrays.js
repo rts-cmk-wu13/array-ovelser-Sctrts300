@@ -6,4 +6,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+// opgave 1
+let newNumbers = numbersArray.filter(function(number) {
+    return number > 20;
+})
+console.log("opgave 1",newNumbers);
+
+// opgave 2
+catsArray.push("Sniffels");
+console.log("opgave 2",catsArray);
+
+
+// opgave 3
+let hadTrixie = dogsArray.includes("Trixie")
+console.log(hadTrixie);
+
+// opgave 3b
+let hasBaxter = dogsArray.some(function(dog) {return dog == "Baxter"})
+let hasBaxterArrow = dogsArray.some((dog) => dog == "Baxter")
+console.log("opgave 3b",hasBaxter)
+console.log("opgave 3b",hasBaxterArrow)
+
+// opgave 4
+let hasBagheera = catsArray.find((cat => cat == "Bagheera"))
+console.log("opgave 4",hasBagheera);
+
+
+
+
 }) // ends DOMContentLoaded
