@@ -31,6 +31,18 @@ console.log("opgave 3b",hasBaxterArrow)
 let hasBagheera = catsArray.find((cat => cat == "Bagheera"))
 console.log("opgave 4",hasBagheera);
 
+let hasSalem = catsArray.find((cat => cat == "Salem"))
+console.log("opgave 4",hasSalem);
+
+// opgave 5
+let multiplied = numbersArray.map((number) => number * 3)
+console.log("opgave 5",multiplied);
+
+// opgave 6
+let dogsString = dogsArray.join("")
+console.log("opgave 5",dogsString);
+
+// opgave 7
 
 
 
